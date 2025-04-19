@@ -2,4 +2,6 @@
     <string name="app_name">NavigationComponentsApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigate_to_second_fragment">navigate to second Fragment</string>
+    <string name="navigate_to_back">Navigate to back</string>
 </resources>

@@ -7,8 +7,22 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/screenTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/navigateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/navigate_to_second_fragment"
+        android:textSize="20sp" />
 
 </FrameLayout>
